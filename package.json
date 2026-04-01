@@ -1,0 +1,21 @@
+{
+  "name": "scm-concept-bottleneck-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server Proof of Concept for Yann LeCun's Concept Bottleneck theory applied to Legal AI.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.1.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.86.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "typescript": "^5.3.3"
+  }
+}
